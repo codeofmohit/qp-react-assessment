@@ -30,7 +30,7 @@ const AddTasks = () => {
   };
 
   return (
-    <div className="add-task my-4 mx-auto text-center mt-10">
+    <div className="add-task my-2 md:my-4 mx-auto text-center mt-4 md:mt-10">
       <form onSubmit={formSubmitHandler}>
         <div className="filed">
           <input
