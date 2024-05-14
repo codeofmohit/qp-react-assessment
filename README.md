@@ -16,17 +16,8 @@ React assessment repo for Question Pro - machine coding round
    - Project started | 14 May 2024 ✅
    - initial level planning for data layer & ui layer done | lld done ✅
    - boilerplate setup done via vite - react + ts ✅
-   - tailwind css installation done ✅
-   - added dependencies ✅
-     - redux toolkit + react-redux
-     - react-icons
-     - uuid
-   - setting up data layer ✅
-     - set up types of task and taskList - /Types/index.ts
-     - set up taskSlice for managing tasks - /Store/slices/tasksSlice.ts
-     - set up redux store - /Store/store.ts
-     - set up TS enabled hooks in replacement of useDispatch and useSelector - /Store/hooks.ts
-     - providing store to the app
+   - tailwind css + other dependencies ✅
+   - data layer setup with redux ✅
    - dark/light theme functionality via context done ✅
 
 2. Functionality ✅
@@ -44,3 +35,5 @@ React assessment repo for Question Pro - machine coding round
 4. Bug fixes ✅
 
 5. App made fully mobile responsive ✅
+
+6. Unit testing with Jest ✅
