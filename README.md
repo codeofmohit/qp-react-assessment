@@ -2,7 +2,7 @@
 
 React assessment repo for Question Pro - machine coding round
 
-[Live App Link : todo-app-qp.web.app/](todo-app-qp.web.app/)
+[🚀 Live App Link : todo-app-qp.web.app/](todo-app-qp.web.app/)
 
 ## Main Features:
 
@@ -14,7 +14,7 @@ React assessment repo for Question Pro - machine coding round
 - 🚀 Pagination added (10 items per page) - UX + performance 🔥
 - 🚀 Fully mobile responsive app 📱
 - 🚀 Basic test cases written and tested 👾
-- 🚀 Deployed live using Firebase hosting 🌐 [Live App : todo-app-qp.web.app/](todo-app-qp.web.app/)
+- 🚀 Deployed live using Firebase hosting 🌐 [🚀 Live App : todo-app-qp.web.app/](todo-app-qp.web.app/)
 
 🧑‍💻 Tech Stack : React, Redux, TypeScript, Tailwind CSS, Firebase hosting, Jest
 
