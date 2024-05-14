@@ -13,7 +13,12 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center">
       <div className="logo">
-        <h1 className="font-bold text-3xl">Todo App</h1>
+        <h1 className="flex justify-center items-center gap-2">
+          <span className="font-bold text-3xl">Todo App</span>
+          <span className="text-xs text-slate-700 dark:text-slate-300">
+            (data persisted via ls)
+          </span>
+        </h1>
       </div>
       <div
         className="light-dark-mode cursor-pointer"
