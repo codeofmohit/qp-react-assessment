@@ -30,5 +30,18 @@ React assessment repo for Question Pro - machine coding round
    - dark/light theme functionality via context done ✅
 
 2. Functionality ✅
+
    - Task completion via checkBoxes done ✅
    - CRUD done ✅
+
+3. Optimizations ✅
+
+   - error handling added in form ✅
+   - data persistence added via localStorage ✅
+   - simultanious CRUD in localStorage to keep data uniformity ✅
+   - pagination added via react-paginate after more then 10 items, for enhancing performance ✅
+
+4. Bug fixes ❌
+
+   - on marking down complete, after reloading, need to click 2 times to change
+   - dark mode not coming on full body

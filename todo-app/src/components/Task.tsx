@@ -1,7 +1,16 @@
 import { useState } from "react";
 import { taskType } from "../types";
 import { useAppDispatch } from "../store/hooks";
-import { deleteTask, updateTask } from "../store/slices/tasksSlice";
+import {
+  deleteTask,
+  markTaskDone,
+  updateTask,
+} from "../store/slices/tasksSlice";
+import {
+  pg_deleteTask,
+  pg_markTaskDone,
+  pg_updateTask,
+} from "../store/slices/paginationSlice";
 
 const Task = ({ task }: { task: taskType }) => {
   const [markChecked, setMarkChecked] = useState<boolean>(false);
@@ -15,11 +24,13 @@ const Task = ({ task }: { task: taskType }) => {
       id: task?.id,
     };
     dispatch(updateTask(updateObj));
+    dispatch(pg_updateTask(updateObj));
   };
 
   // delete task handler
   const deleteHandler = () => {
     dispatch(deleteTask({ id: task?.id }));
+    dispatch(pg_deleteTask({ id: task?.id }));
   };
 
   if (!task) {
@@ -28,13 +39,17 @@ const Task = ({ task }: { task: taskType }) => {
 
   return (
     <div className="task text-center p-1 my-2 flex gap-4 justify-center items-center shadow">
-      <p className={`${markChecked && "line-through"} line-clamp-1`}>
+      <p className={`${task.isCompleted ? "line-through" : ""} line-clamp-1`}>
         {task?.task}
       </p>
       <input
         type="checkbox"
+        checked={task.isCompleted ? true : false}
         onChange={() => {
           setMarkChecked(!markChecked);
+          const flag = !markChecked ? true : false;
+          dispatch(markTaskDone({ id: task.id, flag }));
+          dispatch(pg_markTaskDone({ id: task.id, flag }));
         }}
       />
       <button
