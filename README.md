@@ -9,11 +9,21 @@ React assessment repo for Question Pro - machine coding round
 3. Utilize TypeScript for type-checking and enhanced code quality.
 4. Design and implement test cases to ensure the reliability and robustness of the application.
 
-## Dev Flow
+## Dev Flow (rough)
 
 1. Project started | 14 May 2024 ✅
-2. boilerplate setup done via vite - react + ts ✅
-3. tailwind css installation done ✅
-4. added dependencies ✅
+2. initial level planning for data layer & ui layer done | lld done ✅
+3. boilerplate setup done via vite - react + ts ✅
+4. tailwind css installation done ✅
+5. added dependencies ✅
    - redux toolkit + react-redux
    - react-icons
+   - uuid
+6. setting up data layer ✅
+   - set up types of task and taskList - /Types/index.ts
+   - set up taskSlice for managing tasks - /Store/slices/tasksSlice.ts
+   - set up redux store - /Store/store.ts
+   - set up TS enabled hooks in replacement of useDispatch and useSelector - /Store/hooks.ts
+   - providing store to the app
+7. dark/light theme functionality via context done ✅
+8. COLOR_SCHEME added to constant to change colorScheme seamlessly ✅
