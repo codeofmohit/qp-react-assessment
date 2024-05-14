@@ -6,6 +6,7 @@ import { useContext } from "react";
 const Navbar = () => {
   const theme = useContext(ThemeContext);
 
+  // switching themes
   const switchThemeHandler = () => {
     theme.toggleCurrentTheme();
   };
