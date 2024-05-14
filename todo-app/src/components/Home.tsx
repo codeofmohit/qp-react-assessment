@@ -14,7 +14,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="todo-app">
+    <div className="todo-app h-[110vh]">
       <div className="container w-max-[65.5rem] mx-auto py-4">
         <Navbar />
         <AddTasks />

@@ -15,7 +15,7 @@ const DisplayTasks = () => {
   };
 
   return (
-    <div className="task-list text-center border p-4 rounded w-3/4 mx-auto mt-10">
+    <div className="task-list text-center border p-2 md:p-4 rounded w-full md:w-3/4 mx-auto mt-4  md:mt-10">
       <h1 className="font-medium text-xl my-2">Task List</h1>
       <hr className="mb-4" />
       {(tasks?.length === 0 || !tasks) && (
