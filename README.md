@@ -2,12 +2,21 @@
 
 React assessment repo for Question Pro - machine coding round
 
-## Requirements:
+Live App Link : (todo-app-qp.web.app/)
 
-1. Allow users to mark tasks as completed or incomplete by toggling checkboxes.
-2. Ensure efficient performance and scalability to handle a large number of tasks (up to 10,000 items) without significant lag or slowdown.
-3. Utilize TypeScript for type-checking and enhanced code quality.
-4. Design and implement test cases to ensure the reliability and robustness of the application.
+## Main Features:
+
+🚀 Dark/Light Mode ✅
+🚀 Complete CRUD Functionality (create-read-update-delet) ✅
+🚀 Marking tasks comleted via ticking checkboxes ✅
+🚀 Global state management via Redux - UX + performance 🔥
+🚀 Persisting entire app data (crud + checkbox tics) via LocalStorage - UX + performance 🔥
+🚀 Pagination added (10 items per page) - UX + performance 🔥
+🚀 Fully mobile responsive app 📱
+🚀 Basic test cases written and tested 👾
+🚀 Deployed live using Firebase hosting 🌐 (todo-app-qp.web.app/)
+
+🧑‍💻 Tech Stack : React, Redux, TypeScript, Tailwind CSS, Firebase hosting, Jest
 
 ## Dev Flow (rough)
 
