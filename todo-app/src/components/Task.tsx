@@ -6,6 +6,11 @@ import {
   markTaskDone,
   updateTask,
 } from "../store/slices/tasksSlice";
+import {
+  pg_deleteTask,
+  pg_markTaskDone,
+  pg_updateTask,
+} from "../store/slices/paginationSlice";
 
 const Task = ({ task }: { task: taskType }) => {
   const [markChecked, setMarkChecked] = useState<boolean>(false);
@@ -19,11 +24,13 @@ const Task = ({ task }: { task: taskType }) => {
       id: task?.id,
     };
     dispatch(updateTask(updateObj));
+    dispatch(pg_updateTask(updateObj));
   };
 
   // delete task handler
   const deleteHandler = () => {
     dispatch(deleteTask({ id: task?.id }));
+    dispatch(pg_deleteTask({ id: task?.id }));
   };
 
   if (!task) {
@@ -42,6 +49,7 @@ const Task = ({ task }: { task: taskType }) => {
           setMarkChecked(!markChecked);
           const flag = !markChecked ? true : false;
           dispatch(markTaskDone({ id: task.id, flag }));
+          dispatch(pg_markTaskDone({ id: task.id, flag }));
         }}
       />
       <button
