@@ -21,7 +21,7 @@ const Navbar = () => {
         className="light-dark-mode cursor-pointer"
         onClick={switchThemeHandler}
       >
-        <div className="theme flex gap-2 items-center rounded-lg border px-4 py-2  transition-all">
+        <div className="theme flex gap-2 items-center rounded-lg border px-4 py-2 ">
           {theme.currentTheme === "light" ? (
             <>
               <span>
