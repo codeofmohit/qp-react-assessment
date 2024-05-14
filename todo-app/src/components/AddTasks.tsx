@@ -10,6 +10,11 @@ const AddTasks = () => {
 
   const formSubmitHandler = (e: { preventDefault: () => void }) => {
     e.preventDefault();
+    // error handling
+    if (!taskString || taskString === "") {
+      window.alert("Invalid task! Enter valid task value.");
+      return;
+    }
     // creating new task object
     const taskObj: taskType = {
       id: uuidv4(),
@@ -37,7 +42,7 @@ const AddTasks = () => {
           />
           <button
             type="submit"
-            className="text-white dark:text-slate-700 px-4 py-2 bg-slate-700 dark:bg-slate-300 rounded"
+            className="px-4 py-2 bg-slate-300 dark:bg-slate-700 text-slate-700 dark:text-slate-300 rounded"
           >
             Add item
           </button>
