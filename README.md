@@ -37,3 +37,5 @@ React assessment repo for Question Pro - machine coding round
 5. App made fully mobile responsive ✅
 
 6. Unit testing with Jest ✅
+   - jest + react-testing-library + config set up done ✅
+   - unit testing done ✅
