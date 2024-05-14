@@ -10,8 +10,6 @@ const Navbar = () => {
     theme.toggleCurrentTheme();
   };
 
-  console.log(theme);
-
   return (
     <nav className="flex justify-between items-center">
       <div className="logo">
