@@ -7,7 +7,7 @@ const paginatedTasks = createSlice({
   name: "paginatedItems",
   initialState: initialState,
   reducers: {
-    paginateTasks: (state, action) => {
+    paginateTasks: (_state, action) => {
       return [...action.payload];
     },
     pg_addTask: (state, action) => {
