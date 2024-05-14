@@ -26,4 +26,3 @@ React assessment repo for Question Pro - machine coding round
    - set up TS enabled hooks in replacement of useDispatch and useSelector - /Store/hooks.ts
    - providing store to the app
 7. dark/light theme functionality via context done ✅
-8. COLOR_SCHEME added to constant to change colorScheme seamlessly ✅
