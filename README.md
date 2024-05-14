@@ -2,19 +2,19 @@
 
 React assessment repo for Question Pro - machine coding round
 
-Live App Link : (todo-app-qp.web.app/)
+[Live App](todo-app-qp.web.app/)
 
 ## Main Features:
 
-🚀 Dark/Light Mode ✅
-🚀 Complete CRUD Functionality (create-read-update-delet) ✅
-🚀 Marking tasks comleted via ticking checkboxes ✅
-🚀 Global state management via Redux - UX + performance 🔥
-🚀 Persisting entire app data (crud + checkbox tics) via LocalStorage - UX + performance 🔥
-🚀 Pagination added (10 items per page) - UX + performance 🔥
-🚀 Fully mobile responsive app 📱
-🚀 Basic test cases written and tested 👾
-🚀 Deployed live using Firebase hosting 🌐 (todo-app-qp.web.app/)
+- 🚀 Dark/Light Mode ✅
+- 🚀 Complete CRUD Functionality (create-read-update-delet) ✅
+- 🚀 Marking tasks comleted via ticking checkboxes ✅
+- 🚀 Global state management via Redux - UX + performance 🔥
+- 🚀 Persisting entire app data (crud + checkbox tics) via LocalStorage - UX + performance 🔥
+- 🚀 Pagination added (10 items per page) - UX + performance 🔥
+- 🚀 Fully mobile responsive app 📱
+- 🚀 Basic test cases written and tested 👾
+- 🚀 Deployed live using Firebase hosting 🌐 [Live App](todo-app-qp.web.app/)
 
 🧑‍💻 Tech Stack : React, Redux, TypeScript, Tailwind CSS, Firebase hosting, Jest
 
