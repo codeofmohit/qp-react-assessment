@@ -4,6 +4,7 @@ import DisplayTasks from "./DisplayTasks";
 import Navbar from "./Navbar";
 import { useAppDispatch } from "../store/hooks";
 import { checkLsForTasks } from "../store/slices/tasksSlice";
+import { pg_checkLsForTasks } from "../store/slices/paginationSlice";
 
 const Home = () => {
   const dispatch = useAppDispatch();
@@ -11,6 +12,7 @@ const Home = () => {
   // checking ls for tasks
   useEffect(() => {
     dispatch(checkLsForTasks());
+    dispatch(pg_checkLsForTasks());
   }, []);
 
   return (

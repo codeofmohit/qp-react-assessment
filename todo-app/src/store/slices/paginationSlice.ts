@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { taskListType } from "../../types";
+import { loadFromLs } from "../../utils/localStorageHelper";
 
 const initialState: taskListType = [];
 
@@ -7,6 +8,12 @@ const paginatedTasks = createSlice({
   name: "paginatedItems",
   initialState: initialState,
   reducers: {
+    pg_checkLsForTasks: () => {
+      const list = loadFromLs();
+      if (list && list.length > 0) {
+        return [...list];
+      }
+    },
     paginateTasks: (_state, action) => {
       return [...action.payload];
     },
@@ -49,4 +56,5 @@ export const {
   pg_updateTask,
   pg_deleteTask,
   pg_addTask,
+  pg_checkLsForTasks,
 } = paginatedTasks.actions;
