@@ -39,7 +39,10 @@ const Task = ({ task }: { task: taskType }) => {
 
   return (
     <div className="task text-center p-1 my-2 flex gap-4 justify-center items-center shadow">
-      <p className={`${task.isCompleted ? "line-through" : ""} line-clamp-1`}>
+      <p
+        className={`${task.isCompleted ? "line-through" : ""} line-clamp-1`}
+        data-testid="taskString"
+      >
         {task?.task}
       </p>
       <input

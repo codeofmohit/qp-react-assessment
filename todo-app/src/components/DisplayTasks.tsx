@@ -46,6 +46,7 @@ const DisplayTasks = () => {
           <div
             className="clearTasksBtn px-4 py-2 rounded bg-slate-300 dark:bg-slate-700 text-slate-700 dark:text-slate-300 mt-4 shadow cursor-pointer"
             onClick={clearAllTasksHandler}
+            data-testid="clearAllTasksBtn"
           >
             clear all tasks
           </div>
