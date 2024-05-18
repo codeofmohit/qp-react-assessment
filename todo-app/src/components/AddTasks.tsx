@@ -34,6 +34,7 @@ const AddTasks = () => {
       <form onSubmit={formSubmitHandler}>
         <div className="filed">
           <input
+            data-testid="taskInput"
             type="text"
             placeholder="add task to the list"
             value={taskString}

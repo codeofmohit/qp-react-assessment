@@ -13,7 +13,7 @@ React assessment repo for Question Pro - machine coding round
 - 🚀 Persisting entire app data (crud + checkbox tics) via LocalStorage - UX + performance 🔥
 - 🚀 Pagination added (10 items per page) - UX + performance 🔥
 - 🚀 Fully mobile responsive app 📱
-- 🚀 Basic test cases written and tested 👾
+- 🚀 Unit tests + Integration tests are written covering all main features of the app 👾
 - 🚀 Deployed live using Firebase hosting 🌐 [Live App](https://todo-app-qp.web.app/)
 
 🧑‍💻 Tech Stack : React, Redux, TypeScript, Tailwind CSS, Firebase hosting, Jest
@@ -45,8 +45,6 @@ React assessment repo for Question Pro - machine coding round
 
 5. App made fully mobile responsive ✅
 
-6. Unit testing with Jest ✅
-
-   - jest + react-testing-library + config set up done ✅
+6. Unit testing + Integration testing with Vitest + React-testing-library ✅
 
 7. Clean up + Deployment via Firebase hosting ✅
