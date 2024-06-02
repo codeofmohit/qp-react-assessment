@@ -1,4 +1,4 @@
-# Super todo app : React + TypeScript + Redux + Pagination + Dark/light mode + CRUD + Data Persistency Via LocalStorage + Unit/Integration testing via Vitest
+# Super todo app : Todo App on Steroids 🔥
 
 🧑‍💻 Tech Stack : React, Redux, TypeScript, Tailwind CSS, Firebase hosting, Vitest
 
