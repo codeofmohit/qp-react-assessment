@@ -1,6 +1,6 @@
-# qp-react-assessment (design documentation - dev only)
+# Super todo app : React + TypeScript + Redux + Pagination + Dark/light mode + CRUD + Data Persistency Via LocalStorage + Unit/Integration testing via Vitest
 
-React assessment repo for Question Pro - machine coding round
+🧑‍💻 Tech Stack : React, Redux, TypeScript, Tailwind CSS, Firebase hosting, Vitest
 
 [🚀 Live App Link : todo-app-qp.web.app/](https://todo-app-qp.web.app/)
 
@@ -15,8 +15,6 @@ React assessment repo for Question Pro - machine coding round
 - 🚀 Fully mobile responsive app 📱
 - 🚀 Unit tests + Integration tests are written covering all main features of the app 👾
 - 🚀 Deployed live using Firebase hosting 🌐 [Live App](https://todo-app-qp.web.app/)
-
-🧑‍💻 Tech Stack : React, Redux, TypeScript, Tailwind CSS, Firebase hosting, Jest
 
 ## Dev Flow (rough)
 
